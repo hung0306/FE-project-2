@@ -150,8 +150,8 @@
 }
 
 .section-one .inner-main .button:hover {
-    background-color:  #FF589E;
-    border: 1px solid  #FF589E;
+    background-color: var(--color-one);
+    border: 1px solid var(--color-one);
 }
 @media (max-width:767.98px){
     .section-one .inner-main .inner-title {
@@ -223,7 +223,7 @@
 }
 
 .section-two .inner-img:hover {
-    background-color:  #FF589E;
+    background-color: var(--color-two);
 }
 @media (max-width:991.98px){
     .section-two{
@@ -396,9 +396,6 @@
     transition: all 0.3s ease 0s;
 
 }
-a:hover{
-    text-decoration: none;
-}
 
 @media (max-width:991.98px){
     .section-five .inner-box{
@@ -462,7 +459,7 @@ a:hover{
 
 .section-six .inner-people .inner-position {
     font-size: 15px;
-    color: #FF589E;
+    color: var(--color-two);
 }
 
 .section-six .inner-box {
@@ -783,7 +780,6 @@ a:hover{
     border-bottom: 1px solid #ddd;
     padding-bottom: 30px;
     padding-left: 0px;
-    list-style-type: none;
 }
 
 .footer .inner-content {
